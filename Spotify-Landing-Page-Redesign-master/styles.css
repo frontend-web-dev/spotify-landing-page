@@ -113,3 +113,14 @@ body {
 .btn:focus {
   background-color: #2796ff;
 }
+
+/* media queary */
+@media (max-width: 900px) {
+  .home-main-section .img-wrapper {
+    display: none;
+  }
+
+  .home-main-section {
+    justify-content: center;
+  }
+}
